@@ -1,0 +1,3 @@
+C:/LibraryBorrowingApp/build/CMakeFiles/LibraryBorrowingApp.dir
+C:/LibraryBorrowingApp/build/CMakeFiles/ALL_BUILD.dir
+C:/LibraryBorrowingApp/build/CMakeFiles/ZERO_CHECK.dir

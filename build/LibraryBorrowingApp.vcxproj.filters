@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\LibraryBorrowingApp\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\LibraryBorrowingApp\src\dbmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\LibraryBorrowingApp\src\loginwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\LibraryBorrowingApp\src\bookquerywindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\LibraryBorrowingApp\src\borrowrecordwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\LibraryBorrowingApp\src\bookmanagewindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\LibraryBorrowingApp\src\readermainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\LibraryBorrowingApp\src\adminmainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\LibraryBorrowingApp\src\registerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\LibraryBorrowingApp\src\bookeditordialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\LibraryBorrowingApp\include\dbmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\include\loginwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\include\bookquerywindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\include\borrowrecordwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\include\bookmanagewindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\include\readermainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\include\adminmainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\include\registerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\include\bookeditordialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\include\models.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Debug\ui\ui_loginwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Debug\ui\ui_bookquerywindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Debug\ui\ui_borrowrecordwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Debug\ui\ui_bookmanagewindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Debug\ui\ui_readermainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Debug\ui\ui_adminmainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Debug\ui\ui_registerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Debug\ui\ui_bookeditordialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Release\ui\ui_loginwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Release\ui\ui_bookquerywindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Release\ui\ui_borrowrecordwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Release\ui\ui_bookmanagewindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Release\ui\ui_readermainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Release\ui\ui_adminmainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Release\ui\ui_registerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_Release\ui\ui_bookeditordialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_MinSizeRel\ui\ui_loginwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_MinSizeRel\ui\ui_bookquerywindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_MinSizeRel\ui\ui_borrowrecordwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_MinSizeRel\ui\ui_bookmanagewindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_MinSizeRel\ui\ui_readermainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_MinSizeRel\ui\ui_adminmainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_MinSizeRel\ui\ui_registerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_MinSizeRel\ui\ui_bookeditordialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_RelWithDebInfo\ui\ui_loginwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_RelWithDebInfo\ui\ui_bookquerywindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_RelWithDebInfo\ui\ui_borrowrecordwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_RelWithDebInfo\ui\ui_bookmanagewindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_RelWithDebInfo\ui\ui_readermainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_RelWithDebInfo\ui\ui_adminmainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_RelWithDebInfo\ui\ui_registerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\include_RelWithDebInfo\ui\ui_bookeditordialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\LibraryBorrowingApp\build\CMakeFiles\b1feaf89ff9a7d928d9bf27f0b51788c\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\LibraryBorrowingApp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\LibraryBorrowingApp\ui\loginwindow.ui" />
+    <None Include="C:\LibraryBorrowingApp\ui\bookquerywindow.ui" />
+    <None Include="C:\LibraryBorrowingApp\ui\borrowrecordwindow.ui" />
+    <None Include="C:\LibraryBorrowingApp\ui\bookmanagewindow.ui" />
+    <None Include="C:\LibraryBorrowingApp\ui\readermainwindow.ui" />
+    <None Include="C:\LibraryBorrowingApp\ui\adminmainwindow.ui" />
+    <None Include="C:\LibraryBorrowingApp\ui\registerdialog.ui" />
+    <None Include="C:\LibraryBorrowingApp\ui\bookeditordialog.ui" />
+    <None Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\autouic_Debug.stamp" />
+    <None Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\autouic_Release.stamp" />
+    <None Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="C:\LibraryBorrowingApp\build\LibraryBorrowingApp_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7658AD04-1A26-3B61-8D74-85C10B2B2E6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DC6EE2C5-5CC5-3561-B7C7-D345415E07B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E5AE59C1-0251-3219-B7AC-C1967654D712}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

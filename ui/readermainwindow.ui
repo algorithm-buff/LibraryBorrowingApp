@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReaderMainWindow</class>
+ <widget class="QMainWindow" name="ReaderMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>读者主页</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="mainLayout">
+    <property name="spacing">
+     <number>18</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="headerWidget">
+      <layout class="QHBoxLayout" name="headerLayout">
+       <property name="spacing">
+      <number>12</number>
+       </property>
+       <item>
+      <widget class="QPushButton" name="pushButtonBack">
+       <property name="text">
+        <string>返回</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>90</width>
+         <height>36</height>
+        </size>
+       </property>
+      </widget>
+       </item>
+       <item>
+      <widget class="QLabel" name="labelWelcome">
+       <property name="text">
+        <string>欢迎使用图书借阅系统</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignVCenter|Qt::AlignLeft</set>
+       </property>
+      </widget>
+       </item>
+       <item>
+      <spacer name="headerSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="contentFrame">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <layout class="QVBoxLayout" name="contentLayout">
+       <property name="spacing">
+        <number>18</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="queryContainer">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <layout class="QVBoxLayout" name="queryContainerLayout">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBoxBorrowed">
+         <property name="title">
+          <string>我的借阅书籍</string>
+         </property>
+         <layout class="QVBoxLayout" name="borrowedLayout">
+          <property name="spacing">
+           <number>12</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="labelBorrowTip">
+            <property name="text">
+             <string>下方列出当前尚未归还的书籍，可在此直接归还。</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTableWidget" name="tableWidgetBorrowed">
+            <property name="alternatingRowColors">
+             <bool>true</bool>
+            </property>
+            <column>
+             <property name="text">
+              <string>书名</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>书号</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>作者</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>借阅时间</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>操作</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+    <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>960</width>
+     <height>22</height>
+    </rect>
+   </property>
+    <widget class="QMenu" name="menuFunctions">
+    <property name="title">
+     <string>功能</string>
+    </property>
+    <addaction name="actionBookQuery"/>
+    <addaction name="actionBorrowRecords"/>
+    <addaction name="actionLogout"/>
+    </widget>
+    <addaction name="menuFunctions"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBookQuery">
+   <property name="text">
+    <string>图书查询</string>
+   </property>
+  </action>
+  <action name="actionBorrowRecords">
+   <property name="text">
+    <string>我的借阅记录</string>
+   </property>
+  </action>
+  <action name="actionLogout">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,10 @@
+^C:\LIBRARYBORROWINGAPP\BUILD\CMAKEFILES\CE5EC71812BCD6ED70FA1C59386C71D7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/LibraryBorrowingApp -BC:/LibraryBorrowingApp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/LibraryBorrowingApp/build/LibraryBorrowingApp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

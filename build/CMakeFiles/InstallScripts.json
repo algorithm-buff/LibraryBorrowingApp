@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/LibraryBorrowingApp/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

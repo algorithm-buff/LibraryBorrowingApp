@@ -1,0 +1,5 @@
+C:/LibraryBorrowingApp/build-mingw/CMakeFiles/LibraryBorrowingApp.dir
+C:/LibraryBorrowingApp/build-mingw/CMakeFiles/edit_cache.dir
+C:/LibraryBorrowingApp/build-mingw/CMakeFiles/rebuild_cache.dir
+C:/LibraryBorrowingApp/build-mingw/CMakeFiles/LibraryBorrowingApp_autogen_timestamp_deps.dir
+C:/LibraryBorrowingApp/build-mingw/CMakeFiles/LibraryBorrowingApp_autogen.dir

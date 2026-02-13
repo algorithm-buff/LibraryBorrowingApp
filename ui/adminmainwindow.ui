@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminMainWindow</class>
+ <widget class="QMainWindow" name="AdminMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>管理员主页</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="labelPlaceholder">
+      <property name="text">
+       <string>正在加载图书查询界面...</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFunctions">
+    <property name="title">
+     <string>功能</string>
+    </property>
+    <addaction name="actionBookQuery"/>
+    <addaction name="actionBorrowRecords"/>
+    <addaction name="actionBookMaintain"/>
+    <addaction name="actionLogout"/>
+   </widget>
+   <addaction name="menuFunctions"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBookQuery">
+   <property name="text">
+    <string>图书查询</string>
+   </property>
+  </action>
+  <action name="actionBorrowRecords">
+   <property name="text">
+    <string>借阅记录管理</string>
+   </property>
+  </action>
+  <action name="actionBookMaintain">
+   <property name="text">
+    <string>图书维护</string>
+   </property>
+  </action>
+  <action name="actionLogout">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
